@@ -12,8 +12,13 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "index.html"
+        file: "_data/content.json"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "wat is HAT", name: "what-is-hat", widget: "markdown" }
+          - { label: "Wat is HAT", name: "what_is_hat", widget: "markdown" }
+          - { label: "De oorsprong van HAT", name: "origin", widget: "markdown" }
+          - { label: "10 redenenen", name: "reasons", widget: "markdown" }
+          - { label: "Doel", name: "goals", widget: "markdown" }
+          - { label: "Praktisch", name: "practical", widget: "markdown" }
+          - { label: "Betaling", name: "payment", widget: "markdown" }
+          - { label: "Annulatie", name: "cancelation", widget: "markdown" }
+          - { label: "Inschrijvingsformulier", name: "signup", widget: "markdown" }
